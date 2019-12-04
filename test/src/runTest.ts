@@ -47,6 +47,12 @@ interface BenchMark {
 
 const benchMarks: BenchMark[] = [
   {
+    name: "slower-lsp-sample",
+    publisher: "samples",
+    extensionDevelopmentPath: "extensions/slower-lsp-sample/packages/extension",
+    extensionTestPath: "test/dist/benchmarks/slower-lsp-sample/suite"
+  },
+  {
     name: "lsp-sample",
     publisher: "vscode-samples",
     extensionDevelopmentPath: "extensions/lsp-sample",

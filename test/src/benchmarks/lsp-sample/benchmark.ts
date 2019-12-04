@@ -1,4 +1,7 @@
-import { activateExtension, benchmarkCompletion } from "../benchmark-utils";
+import {
+  activateExtension,
+  benchmarkCompletion
+} from "../../benchmark-utils/benchmark-utils";
 
 suite("lsp-sample", () => {
   test("Completions", async () => {

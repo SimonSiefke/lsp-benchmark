@@ -1,0 +1,15 @@
+{
+  "name": "lsp-sample-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "vscode-languageserver": "^6.0.0-next.7",
+    "vscode-languageserver-textdocument": "^1.0.0-next.5"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "typescript": "^3.7.3"
+  }
+}
