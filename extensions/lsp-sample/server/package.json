@@ -5,5 +5,8 @@
   "dependencies": {
     "vscode-languageserver": "^6.0.0-next.7",
     "vscode-languageserver-textdocument": "^1.0.0-next.5"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14"
   }
 }
