@@ -61,11 +61,16 @@ const benchMarks: BenchMark[] = [
 ];
 
 const main: () => Promise<void> = async () => {
-  await setup();
-  for (const testCase of benchMarks) {
-    for (let i = 0; i < 1; i++) {
-      await run(testCase);
+  try {
+    await setup();
+    for (const testCase of benchMarks) {
+      for (let i = 0; i < 1; i++) {
+        await run(testCase);
+      }
     }
+  } catch (error) {
+    console.error(error);
+    process.exit(1);
   }
 };
 
