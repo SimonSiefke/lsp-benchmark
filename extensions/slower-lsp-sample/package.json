@@ -2,9 +2,11 @@
   "name": "slower-lsp-sample",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "postinstall": "lerna bootstrap && npm run build"
   },
   "devDependencies": {
+    "lerna": "^3.19.0",
     "typescript": "^3.7.3"
   }
 }
