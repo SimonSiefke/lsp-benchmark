@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "e2e": "tsc -b && node dist/runTest.js"
+    "benchmark": "tsc -b && node dist/runBenchmark.js"
   },
   "keywords": [],
   "author": "",
