@@ -11,7 +11,7 @@
   "main": "./client/out/extension",
   "scripts": {
     "build": "tsc -b",
-    "postinstall": "cd client && npm ci && cd .. && cd server && npm ci && cd .."
+    "postinstall": "cd client && npm ci && cd .. && cd server && npm ci && cd .. && npm run build"
   },
   "devDependencies": {
     "typescript": "^3.7.3"
