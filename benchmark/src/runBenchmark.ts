@@ -54,7 +54,7 @@ const benchMarks: BenchMark[] = [
   },
   {
     name: "lsp-sample",
-    publisher: "vscode-samples",
+    publisher: "samples",
     extensionDevelopmentPath: "extensions/lsp-sample",
     extensionTestPath: "benchmark/dist/benchmarks/lsp-sample/suite"
   }
