@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "lib": ["esnext"],
+    "target": "es2019",
+    "module": "commonjs",
+
+    "sourceMap": true,
+    "noEmitOnError": true,
+
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    "skipLibCheck": true,
+
+    "alwaysStrict": true,
+    "preserveConstEnums": true,
+
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "types": ["node", "vscode"],
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}

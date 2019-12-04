@@ -1,0 +1,33 @@
+// A launch configuration that compiles the extension and then opens it inside a new window
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}/test/base/extension",
+        "--disable-extensions",
+        "${workspaceFolder}/playground"
+      ],
+      "outFiles": ["${workspaceFolder}/test/base/extension/dist/**/*.js"]
+    },
+    {
+      "type": "extensionHost",
+      "request": "launch",
+      "name": "lsp-sample",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceRoot}/test/lsp-sample",
+        "--disable-extensions",
+        "${workspaceFolder}/playground"
+      ],
+      "outFiles": ["${workspaceRoot}/test/lsp-sample/client/out/**/*.js"]
+    }
+  ]
+}

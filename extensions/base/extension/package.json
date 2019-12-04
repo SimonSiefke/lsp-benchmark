@@ -1,0 +1,32 @@
+{
+  "name": "extension",
+  "version": "1.0.0",
+  "description": "",
+  "publisher": "SimonSiefke",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "activationEvents": [
+    "onLanguage:plaintext"
+  ],
+  "extensionKind": [
+    "workspace",
+    "ui"
+  ],
+  "main": "dist/extension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@types/vscode": "^1.40.0"
+  },
+  "dependencies": {
+    "typescript": "^3.7.3",
+    "vscode-languageclient": "^6.0.0-next.8"
+  }
+}
