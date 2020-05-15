@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/fs-extra": "^8.0.1",
+    "@types/fs-extra": "^9.0.0",
     "@types/glob": "^7.1.1",
     "@types/mocha": "^7.0.0",
     "@types/node": "^12.12.14",
